@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/index/cart",
+    "pages/list/list"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ef4d7b",
+    "navigationBarTitleText": "茶颜山",
+    "navigationBarTextStyle":"#fff"
+  }
+}

@@ -1,0 +1,62 @@
+<!--index.wxml--> 
+    <view class="swiper-container">
+      <view class="search-view">
+        <image class="imgs" src="image/search.gif"></image>
+        <input placeholder-class="phcolor" class="search-view-input" type="search" placeholder="搜索商品">
+        </input>
+      </view>
+
+      <!-- 轮播 -->
+      <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">  
+        <block wx:for="{{movies}}" wx:for-index="index">  
+          <swiper-item>  
+            <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+          </swiper-item>  
+        </block>  
+      </swiper>
+
+      <view class="shopping">
+        <view catchtap="handleShopTap" class="shopping-shop shopping-tap">商品</view>
+        <view class="shopping-classification">分类</view>
+      </view>
+
+      <view class="list">
+        <view class="list-one">销量</view>
+        <view class="list-two">新品</view>
+        <view class="list-three">
+          价格
+          <view class="list-icon"> 
+          <text class="san"></text>
+          <text class="er"></text>
+          </view> 
+        </view>
+      </view>
+
+      <view class="product">
+        <view class="product-img" wx:for="{{TeaList}}" wx:for-index="index" wx:for-item="item">
+          <image class="on" src="{{item.url}}"></image>
+          <view class="product-title">{{item.title}}</view>
+          <view class="product-price">{{item.price}}</view>
+        </view>
+      </view>
+
+      <view class="nomore">- 无更多商品 -</view>
+        <view class="gong">
+        <view class="gong-one">
+            <view><image class="gong-one-img" src="image/zhu.gif"></image></view>
+            <view>主页</view>
+        </view>
+        <navigator url="cart" class="gong-one">
+          <view><image class="gong-one-img" src="image/cart.gif"></image></view>
+          <view>购物车</view>
+        </navigator>
+        <view class="gong-one">
+            <view><image class="gong-one-img" src="image/list.gif"></image></view>
+            <view>订单</view>
+        </view>
+        <view class="gong-one">
+            <view><image class="gong-one-img" src="image/my.gif"></image></view>
+            <view>我的</view>
+        </view>
+      </view>  
+    </view>

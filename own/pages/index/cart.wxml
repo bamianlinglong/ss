@@ -1,0 +1,7 @@
+<view class="cart-box">
+  <view class="kong">
+    <image class="img" src="image/kong.gif"></image>
+    <view>空购物车</view>
+    <navigator url="index">快去添加商品吧</navigator>
+  </view>
+</view>

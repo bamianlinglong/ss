@@ -1,0 +1,122 @@
+/**index.wxss**/
+.swiper-container {
+  background: #f7f7f7;
+  padding-bottom: 80rpx;
+}
+.swiper {
+  height: 400rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.search-view {
+  background: #ef4d7b;
+  display: flex;
+  justify-content: center;
+}
+.search-view-input {
+  height: 70rpx;
+  width: 92%;
+   background-color: #f7719c; 
+  font-size: 30rpx;
+  color: #fff;
+  margin: 10rpx 0 25rpx 0;
+  border-radius: 10rpx;
+  padding-left: 60rpx;
+  position: relative;
+  box-sizing: border-box;
+}
+.phcolor {
+  color: rgba(255, 255, 255, .6);
+}
+.imgs {
+  z-index: 2;
+  width: 30rpx;
+  height: 30rpx;
+  position: absolute;
+  top: 30rpx;
+  left: 50rpx;
+}
+.shopping {
+  margin-top: 20rpx;
+  line-height: 104rpx;
+  border-bottom: 1rpx solid #dedfde;
+  display: flex;
+}
+.shopping-shop, 
+.shopping-classification,
+.list-one,
+.list-two,
+.list-three {
+  flex: 1;
+  text-align: center;
+  color: #9c9a9c;
+  background: #fff;
+}
+.shopping-tap {
+  color: #737173;
+  border-bottom: 5rpx solid #949694;
+}
+.list {
+  line-height: 90rpx;
+  border-bottom: 1rpx solid #dedfde;
+  display: flex;
+  font-size: 30rpx;
+}
+.list .list-three {
+  display: flex;
+  justify-content: center;
+}
+.list-icon {
+  margin: 35rpx 0 0 15rpx;
+}
+.san, .er {
+  display: block;
+  height: 0;
+}
+ .san {
+  border-bottom: 10rpx solid #8c8a8c;
+  border-left: 10rpx solid transparent;
+  border-right: 10rpx solid transparent;
+}
+.er {
+  border-top: 10rpx solid #ef656b;
+  border-left: 10rpx solid transparent;
+  border-right: 10rpx solid transparent;
+  margin-top: 5rpx;
+} 
+.product {
+  margin-top: 30rpx;
+  display: flex; 
+   justify-content: space-between; 
+  flex-wrap: wrap;
+  padding: 0 40rpx;
+}
+.product-img {
+  height: 435rpx;
+  width: 318rpx;
+  background: #fff;
+  margin-top: 20rpx;
+}
+.on {
+  width: 319rpx;
+  height: 318rpx;
+}
+.product-title, .product-price {
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+  padding-left: 15rpx;
+}
+.product-price {
+  color: #ef5d6b;
+}
+.nomore{
+  line-height: 70rpx;
+  color: #9c9e9c;
+  background: #fff;
+  font-size: 30rpx;
+  text-align: center;
+  margin: 15rpx 0 50rpx 0;
+}

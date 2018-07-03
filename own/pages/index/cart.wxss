@@ -1,0 +1,16 @@
+/* pages/index/cart.wxss */
+.cart-box {
+  background: #f4f4f4;
+  height: 1180rpx;
+  width: 100%;
+}
+.img {
+  width: 103rpx;
+  height: 86rpx;
+  margin-top: 50%;
+}
+.kong {
+  font-size: 30rpx;
+  color: #c7c7c7;
+  text-align: center;
+}
