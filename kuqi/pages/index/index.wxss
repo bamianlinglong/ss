@@ -1,0 +1,134 @@
+/**index.wxss**/
+.box {
+  background: #f7f7f7;
+  padding-bottom: 180rpx;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  height: 104rpx;
+  background: #fff; 
+  position: relative;
+}
+.search-icon {
+  z-index: 2;
+  position: absolute;
+  top: 35rpx;
+  left: 40rpx
+}
+.search-input {
+  width: 95%;
+  background: #efefef;
+  color: #9c9e9c;
+  height: 70rpx;
+  border-radius: 10rpx;
+  font-size: 30rpx;
+  padding-left: 70rpx;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+}
+.swiper {
+  height: 400rpx;
+  width: 100%;
+}
+.swiper-image {
+  height: 100%;
+  width: 100%;
+}
+.branch {
+  height: 216rpx;
+  background: #fff; 
+  display: flex; 
+  justify-content: space-around;
+}
+.branch-one {
+  flex: 1;
+  text-align: center;
+  margin-top: 30rpx;
+}
+.imgs {
+  width: 114rpx;
+  height: 114rpx;
+}
+.branch-text {
+  font-size: 30rpx;
+  color: #6b6d6b;
+}
+.product {
+  margin-top: 25rpx;
+  background: #fff;
+}
+.product-tui {
+  line-height: 71rpx;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20rpx;
+}
+.product-text {
+  color: #f75552;
+  font-weight: bold;
+}
+.product-more {
+  color: #9c9a9c;
+  font-size: 35rpx;
+}
+.product-img {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-view {
+  height: 495rpx;
+  width: 50%;
+  border-right: 1rpx solid #efefef;
+  border-top: 1rpx solid #efefef;
+  box-sizing: border-box;
+  padding: 20rpx 0 0 30rpx;
+}
+.images {
+  width: 322rpx;
+  height: 326rpx;
+}
+.product-dian {
+  color: #9c9a9c;
+  font-size: 30rpx;
+  height: 70rpx;
+  overflow: hidden;
+}
+.product-font {
+  color: #f75552;
+  font-size: 30rpx;
+}
+.img {
+  width: 48rpx;
+  height: 48rpx;
+  padding-right: 25rpx;
+}
+.position {
+  display: flex;
+  justify-content: space-between;
+}
+.red {
+  margin-top: 25rpx;
+  background: #fff;
+}
+.foot {
+  height: 106rpx;
+  background: #f7f7f7;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  padding-top: 20rpx;
+}
+.foot-gong {
+  width: 20%;
+  text-align: center;
+}
+.foot-img {
+  width: 37rpx;
+  height: 37rpx;
+}
+.foot-text {
+  font-size: 26rpx;
+}

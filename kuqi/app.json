@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f75552",
+    "navigationBarTitleText": "酷奇娱乐",
+    "navigationBarTextStyle":"#fff"
+  }
+}
